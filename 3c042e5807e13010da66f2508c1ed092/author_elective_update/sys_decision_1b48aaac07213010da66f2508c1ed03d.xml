@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision">
+    <sys_decision action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <answer_table>x_58872_needit_needit_task</answer_table>
+        <answer_type>reference</answer_type>
+        <label/>
+        <name>NeedIt Task Decision</name>
+        <reference_qualifier/>
+        <sys_class_name>sys_decision</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 14:39:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1b48aaac07213010da66f2508c1ed03d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Task Decision</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt Spoke" source="x_663500_needit_sp">3c042e5807e13010da66f2508c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">3c042e5807e13010da66f2508c1ed092</sys_scope>
+        <sys_update_name>sys_decision_1b48aaac07213010da66f2508c1ed03d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 14:39:10</sys_updated_on>
+    </sys_decision>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt Spoke">3c042e5807e13010da66f2508c1ed092</application>
+        <file_path/>
+        <instance_id>98dde0c4db7d4410f492c59705961976</instance_id>
+        <instance_name>dev96130</instance_name>
+        <name>sys_decision_1b48aaac07213010da66f2508c1ed03d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision"><sys_decision action="INSERT_OR_UPDATE"><access>package_private</access><active>true</active><answer_table>x_58872_needit_needit_task</answer_table><answer_type>reference</answer_type><label/><name>NeedIt Task Decision</name><reference_qualifier/><sys_class_name>sys_decision</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-21 14:39:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1b48aaac07213010da66f2508c1ed03d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Task Decision</sys_name><sys_overrides/><sys_package display_value="NeedIt Spoke" source="x_663500_needit_sp">3c042e5807e13010da66f2508c1ed092</sys_package><sys_policy/><sys_scope display_value="NeedIt Spoke">3c042e5807e13010da66f2508c1ed092</sys_scope><sys_update_name>sys_decision_1b48aaac07213010da66f2508c1ed03d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-21 14:39:10</sys_updated_on></sys_decision></record_update>]]></payload>
+        <payload_hash>81928100</payload_hash>
+        <record_name>NeedIt Task Decision</record_name>
+        <reverted_from/>
+        <source>45042e5807e13010da66f2508c1ed095</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 14:39:10</sys_created_on>
+        <sys_id>72782eac07213010da66f2508c1ed05f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac98193ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 14:39:10</sys_updated_on>
+        <type>Decision Table</type>
+        <update_guid>ba782eacbd2130106a6667c0d443465e</update_guid>
+        <update_guid_history>ba782eacbd2130106a6667c0d443465e:81928100</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 14:44:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision">sys_decision</sys_db_object>
+        <sys_id>27721ed802a04764a279484365975264</sys_id>
+        <sys_metadata>1b48aaac07213010da66f2508c1ed03d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Task Decision</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_663500_needit_sp">3c042e5807e13010da66f2508c1ed092</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">3c042e5807e13010da66f2508c1ed092</sys_scope>
+        <sys_scope_delete display_value="">c2d1d86742844600ae6adc49d4f51000</sys_scope_delete>
+        <sys_update_name>sys_decision_1b48aaac07213010da66f2508c1ed03d</sys_update_name>
+        <sys_update_version display_value="sys_decision_1b48aaac07213010da66f2508c1ed03d">72782eac07213010da66f2508c1ed05f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 14:44:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

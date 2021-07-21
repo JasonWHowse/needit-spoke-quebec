@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer/>
+        <condition table="var__m_sys_decision_input_aac9a62c07213010da66f2508c1ed040">u_needittask.due_date&lt;=javascript:gs.endOfToday()^EQ<item endquery="false" field="u_needittask.due_date" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.endOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="NeedIt Task Decision">aac9a62c07213010da66f2508c1ed040</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_aac9a62c07213010da66f2508c1ed040</input_table>
+        <label>IsOverdue</label>
+        <order>0</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 14:51:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>941b2e2007613010da66f2508c1ed0bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IsOverdue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt Spoke" source="x_663500_needit_sp">3c042e5807e13010da66f2508c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">3c042e5807e13010da66f2508c1ed092</sys_scope>
+        <sys_update_name>sys_decision_question_941b2e2007613010da66f2508c1ed0bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 14:51:49</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt Spoke">3c042e5807e13010da66f2508c1ed092</application>
+        <file_path/>
+        <instance_id>98dde0c4db7d4410f492c59705961976</instance_id>
+        <instance_name>dev96130</instance_name>
+        <name>sys_decision_question_941b2e2007613010da66f2508c1ed0bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer/><condition table="var__m_sys_decision_input_aac9a62c07213010da66f2508c1ed040">u_needittask.due_date&lt;=javascript:gs.endOfToday()^EQ<item endquery="false" field="u_needittask.due_date" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.endOfToday()"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="NeedIt Task Decision">aac9a62c07213010da66f2508c1ed040</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_aac9a62c07213010da66f2508c1ed040</input_table><label>IsOverdue</label><order>0</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-21 14:51:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>941b2e2007613010da66f2508c1ed0bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IsOverdue</sys_name><sys_overrides/><sys_package display_value="NeedIt Spoke" source="x_663500_needit_sp">3c042e5807e13010da66f2508c1ed092</sys_package><sys_policy/><sys_scope display_value="NeedIt Spoke">3c042e5807e13010da66f2508c1ed092</sys_scope><sys_update_name>sys_decision_question_941b2e2007613010da66f2508c1ed0bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-21 14:51:49</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>1985566469</payload_hash>
+        <record_name>IsOverdue</record_name>
+        <reverted_from/>
+        <source>45042e5807e13010da66f2508c1ed095</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 14:51:49</sys_created_on>
+        <sys_id>c86b226007613010da66f2508c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ac98d28f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 14:51:49</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>046b2260926130100496fe8c2608a045</update_guid>
+        <update_guid_history>046b2260926130100496fe8c2608a045:1985566469</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-21 14:56:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>a6b57fb36eda4e82b26d41edb32012b9</sys_id>
+        <sys_metadata>941b2e2007613010da66f2508c1ed0bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IsOverdue</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_663500_needit_sp">3c042e5807e13010da66f2508c1ed092</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">3c042e5807e13010da66f2508c1ed092</sys_scope>
+        <sys_scope_delete display_value="">c2d1d86742844600ae6adc49d4f51000</sys_scope_delete>
+        <sys_update_name>sys_decision_question_941b2e2007613010da66f2508c1ed0bd</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_941b2e2007613010da66f2508c1ed0bd">c86b226007613010da66f2508c1ed045</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-21 14:56:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
